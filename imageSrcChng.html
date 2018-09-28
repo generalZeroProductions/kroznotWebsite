@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+		<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Code a Responsive Website with Twitter Bootstrap 3</title>
+		<meta name="description" content="Learn how to code your first responsive website with the new Twitter Bootstrap 3.">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+		<!-- Bootstrap CSS -->
+		
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="TstCar.css">
+			<!--<link rel="stylesheet" href="carousel.css">-->
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+ 
+		<!-- If IE use the latest rendering engine 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+	
+			<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ 		
+		-->
+ 
+</head>
+<body>
+	<!--<a href="#" onclick="window.document.pic.src='images_sm/highlights_off.jpg';">Change</a>
+-->
+<a href="#" onclick="changePic('highlights_off')">Change</a>
+  <img id="pic" src="images_sm/partners_off.jpg">
+<script>
+function changePic(imageBase){
+var currentPic=imageBase;
+document.pic.src='images_sm/'+currentPic+'.jpg';
+}
+</script>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="//apps.bdimg.com/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="includes/js/size.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
